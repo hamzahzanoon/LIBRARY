@@ -173,21 +173,23 @@ body {
 }
 
 .wrapper {
-    max-width: 850px;
+    max-width: 1200px;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin: 0 auto;
     margin-top: 40px;
 }
 
 .wrapper .card {
+    background-image: url("../images/تنزيل (5).jpg"); 
     position: relative;
     width: 100%;
     background-repeat: 6px;
-    background: #fff;
     overflow: hidden;
     height: 400px;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.15)
+    ,0px 1px 10px rgba(0, 0, 0, 0.15);
 }
 
 .wrapper .card img {
@@ -195,6 +197,9 @@ body {
     height: 100%;
     border-radius: 6px;
     transition: all 0.3s ease;
+    object-fit: contain;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.15)
+    ,0px 1px 10px rgba(0, 0, 0, 0.15);
 }
 
 .wrapper .card:hover img {
@@ -236,6 +241,8 @@ body {
     height: 500px;
     background: #fff;
     border-radius: 15px;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.15)
+    ,0px 1px 10px rgba(0, 0, 0, 0.15);
 }
 
 .wrapper2 h4 {
@@ -278,6 +285,9 @@ body {
     .home-section .contaner {
         margin: 40px 13px;
     }
+    .wrapper {
+        gap: 15px;
+    }
 }
 
 @media (max-width:550px) {
@@ -299,5 +309,11 @@ body {
         border-radius: 15px;
         color: #e4e9f7;
         text-align: center;
+    }
+    .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        margin: 0 15px;
+        margin-top: 55px;
     }
 }

@@ -27,7 +27,7 @@ let productsDb = [
         id:5 ,
         title: "Kind Of Book" ,
         author : "Hamzah Zanoon",
-        imgUrl: "images/_It's The Kind Of Book You're Sad To Finish Because The Journey Must Come To An End__ People Are Sharing Their Absolute Favorite Summer Reads.jpeg" ,
+        imgUrl: "images/What We Did _ Christobel Kent _ 9780751568783.jpeg" ,
     } ,
     {
         id:6 ,
